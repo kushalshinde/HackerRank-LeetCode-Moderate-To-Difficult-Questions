@@ -72,7 +72,7 @@ public class StrongPassword {
         		if(Character.isDigit(c))
         			flags[2] = true;
         	}
-        	if(flags[3]) {
+        	if(!flags[3]) {
         		if(checkAlphanumeric(c))
         			flags[3] = true;
         	}
