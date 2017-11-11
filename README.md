@@ -2,3 +2,5 @@
 
 
 https://www.hackerrank.com/kushalshinde
+
+https://leetcode.com/kush_fe2006/
