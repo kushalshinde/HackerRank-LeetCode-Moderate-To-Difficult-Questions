@@ -52,27 +52,16 @@ public class TheTimeInWords {
 		 Scanner sc = new Scanner(System.in);
 		 int hh = sc.nextInt();
 		 int mm = sc.nextInt();
-		 String hour = "";
-		 if(mm>30)
-			 hour = hourcalculate(hh+1);
-		 else
-			 hour = hourcalculate(hh);
 		 
-		 String minutes = "";
-		 
-		 if(mm>30)
-			 minutes = minutecalculate(mm);
-		 else
-			 minutes = minutecalculate(mm);
-				
-		if(mm==0)
-			System.out.println(hour + " "+minutes);
-		else
-			System.out.println(minutes+" "+hour);
-		
-		sc.close();
+		 String hour = (mm>30) ? hourcalculate(hh+1) : hourcalculate(hh);
 
+		 String minutes = minutecalculate(mm);
+		 
+		 System.out.println(mm==0 ? hour + " "+minutes : minutes+" "+hour);	 
+		 
+		 sc.close();
 	}
+
 	public static String hourcalculate(int hh) {
 		 if(hh>12)
 			 throw new IllegalArgumentException("Invalid hour");

@@ -117,7 +117,7 @@ package Algorithms;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class QueensAttackIIPart1LazyEvaluation {
+public class QueensAttackII {
 
 	public static void main (String[] args) {
 		Scanner in = new Scanner(System.in);

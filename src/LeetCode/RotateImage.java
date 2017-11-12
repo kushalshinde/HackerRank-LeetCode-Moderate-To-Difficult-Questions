@@ -50,6 +50,7 @@ public class RotateImage {
 	 public static void rotate(int[][] matrix) {
 		 
 		 int N = matrix.length;
+		 
 		 for (int x = 0; x < N / 2; x++) {
 			 for (int y = x; y < N-x-1; y++) {
 				 

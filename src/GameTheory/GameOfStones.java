@@ -99,10 +99,7 @@ public class GameOfStones {
 		
 		for(int i=0; i<n; i++) {
 			int input = sc.nextInt();
-			if(check(input, dp) ==1)
-				System.out.println("First");
-			else
-				System.out.println("Second");
+			System.out.println(check(input, dp) == 1 ? "First" : "Second");
 		}
 		sc.close();
 	}

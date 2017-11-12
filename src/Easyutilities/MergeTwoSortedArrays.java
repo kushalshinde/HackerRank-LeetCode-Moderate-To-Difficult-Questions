@@ -20,12 +20,8 @@ public class MergeTwoSortedArrays {
 		int k=0;
 			
 		for(int i=0; i<array3.length; i++) {
-			if(j<array1.length && k<array2.length) {
-				if(array1[j]>array2[k]) 
-					array3[i] = array2[k++];
-				else 
-					array3[i] = array1[j++];
-			}
+			if(j<array1.length && k<array2.length)
+				array3[i] = (array1[j]>array2[k]) ? array2[k++] : array1[j++];
 			else if(j==array1.length)
 				array3[i] = array2[k++];
 			else

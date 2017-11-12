@@ -78,10 +78,8 @@ public class Grid_Challenge {
 				}
 				m=0;
 			}
-			if(validMatrix(matrix))
-				System.out.println("YES");
-			else
-				System.out.println("NO");
+			
+			System.out.println(validMatrix(matrix) ? "YES" : "NO");
 		}
 		sc.close();
     }

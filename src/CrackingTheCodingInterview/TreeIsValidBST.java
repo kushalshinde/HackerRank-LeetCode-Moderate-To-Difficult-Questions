@@ -36,8 +36,7 @@ public class TreeIsValidBST {
 	 	}
 	 
 	    public static boolean isBST(Node root) {
-	    	return isValidBST(root, Integer.MIN_VALUE,
-	    	          Integer.MAX_VALUE);
+	    	return isValidBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
 	    }
 	    
 	    private static boolean isValidBST(Node node, int l, int h) {
@@ -48,17 +47,14 @@ public class TreeIsValidBST {
 	            && isValidBST(node.left, l, node.data)
 	            && isValidBST(node.right, node.data, h);
 	   }
-		public static void main(String[] args){
-			TreeIsValidBST.root = new Node(4);
+	    public static void main(String[] args){
+	    	TreeIsValidBST.root = new Node(4);
 			TreeIsValidBST.root.left = new Node(2);
 			TreeIsValidBST.root.right = new Node(5);
 			TreeIsValidBST.root.left.left = new Node(1);
 			TreeIsValidBST.root.left.right = new Node(3);
 	      
-	        if(TreeIsValidBST.isBST(root))
-	        	System.out.println("Given Tree Is a BST");
-	        else
-	        	System.out.println("Given Tree Is Not a BST");
+			System.out.println(TreeIsValidBST.isBST(root) ? "Given Tree Is a BST" : "Given Tree Is Not a BST");
 	        
 	        System.out.println(TreeIsValidBST.max(root));
 	        

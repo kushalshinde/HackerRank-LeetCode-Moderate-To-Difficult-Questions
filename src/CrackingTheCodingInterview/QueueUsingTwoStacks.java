@@ -4,8 +4,8 @@ import java.util.Stack;
 
 class MyQueue<T>{
 	
-	 Stack<T> stack1 = new Stack<T>();
-     Stack<T> stack2 = new Stack<T>();	
+	Stack<T> stack1 = new Stack<T>();
+	Stack<T> stack2 = new Stack<T>();	
 	
 	public T peek() {
 		if(stack2.isEmpty()) {
@@ -16,8 +16,7 @@ class MyQueue<T>{
 		return stack2.peek();
 	}
 	
-	public void dequeue(){
-		
+	public void dequeue(){		
 		if(stack2.isEmpty()) {
 			while(!stack1.isEmpty()) {
 				stack2.push(stack1.pop());
@@ -34,24 +33,24 @@ class MyQueue<T>{
 public class QueueUsingTwoStacks {
 
 	public static void main(String[] args) {
-		 MyQueue<Integer> queue = new MyQueue<Integer>();
+		MyQueue<Integer> queue = new MyQueue<Integer>();
 
-	        Scanner scan = new Scanner(System.in);
-	        int n = scan.nextInt();
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
 
-	        for (int i = 0; i < n; i++) {
-	            int operation = scan.nextInt();
-	            if (operation == 1) {                 // enqueue
-	              queue.enqueue(scan.nextInt());
-	            } else if (operation == 2) {          // dequeue
-	              queue.dequeue();
-	            } else if (operation == 3) {          // print/peek
-	              System.out.println(queue.peek());
-	            }
-	        }
-	        scan.close();
-	    }
+		for (int i = 0; i < n; i++) {
+			int operation = scan.nextInt();
+			if (operation == 1) {                 // enqueue
+				queue.enqueue(scan.nextInt());
+			} else if (operation == 2) {          // dequeue
+				queue.dequeue();
+			} else if (operation == 3) {          // print/peek
+				System.out.println(queue.peek());
+			}
+		}
+		scan.close();
 	}
+}
 
 
 
