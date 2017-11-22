@@ -1,4 +1,8 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * 
+ * 
+
  Find maximum integer in an Array which is monotonically ascending and descending at some point.
  
  I used Binary search to search the max element in an array. Time complexity is Log(n).

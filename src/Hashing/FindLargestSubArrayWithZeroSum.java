@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * Date: - 21 Nov 2017
+ * 
  * Find the largest subarray with 0 sum
  * 
  * Given an array of integers, find length of the largest subarray with sum equals to 0.

@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * Date: - 21 Nov 2017
+ * 
  * Majority Element - An element that appears more than n/2 times 
  * 
    I/P : 3 3 4 2 4 4 2 4 4

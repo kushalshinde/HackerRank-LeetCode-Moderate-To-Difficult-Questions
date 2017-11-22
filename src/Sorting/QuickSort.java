@@ -1,3 +1,11 @@
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * 
+ * Quick Sort
+ * 
+ */
+
+
 package Sorting;
 
 import java.util.Arrays;

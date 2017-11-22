@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * Date: - 21 Nov 2017
+ * 
  * Given an array A[] and a number x, check for pair in A[] with sum as x
  * 
  */

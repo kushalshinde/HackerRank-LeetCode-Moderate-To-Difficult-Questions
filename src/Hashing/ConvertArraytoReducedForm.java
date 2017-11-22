@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * Date: - 21 Nov 2017
+ * 
  * Convert an array to reduced form
  * 
  * Given an array with n distinct elements, convert the given array to a form where all elements 

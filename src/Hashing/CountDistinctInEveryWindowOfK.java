@@ -1,4 +1,8 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * Date: - 21 Nov 2017
+ * 
+ * 
  * Count distinct elements in every window of size k
  * 
  * Given an array of size n and an integer k, return the of count of distinct numbers in all windows of size k.

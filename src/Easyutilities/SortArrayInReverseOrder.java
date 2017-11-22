@@ -1,3 +1,10 @@
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * 
+ * Sort an array in a reverse order
+ * 
+ */
+
 package Easyutilities;
 
 import java.util.Arrays;

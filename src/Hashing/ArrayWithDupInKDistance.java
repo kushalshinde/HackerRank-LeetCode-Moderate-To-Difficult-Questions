@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * Date: - 21 Nov 2017
+ * 
  * Check if a given array contains duplicate elements within k distance from each other
  * 
  * 

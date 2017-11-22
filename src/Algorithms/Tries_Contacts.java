@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * 
+ * 
 We're going to make our own Contacts application! The application must perform two types of operations:
 
 1. add name, where "name" is a string denoting a contact name. This must store  as a new contact in the application.

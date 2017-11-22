@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * 
+ * 
  This procedure is to store an ArrayList of integers as a value in a HashMap  
  */
 

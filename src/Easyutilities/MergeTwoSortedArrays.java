@@ -1,4 +1,6 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * 
  * Merge two sorted arrays
  */
 

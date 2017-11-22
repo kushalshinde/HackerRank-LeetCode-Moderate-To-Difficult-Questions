@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * Date: - 21 Nov 2017
+ * 
  * Find four elements a, b, c and d in an array such that a+b = c+d
  * 
  * Given an array of distinct integers, find if there are two pairs (a, b) and (c, d) such 

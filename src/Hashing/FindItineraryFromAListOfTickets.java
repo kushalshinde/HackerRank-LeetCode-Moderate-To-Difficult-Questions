@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * Date: - 21 Nov 2017
+ * 
  * Find Itinerary from a given list of tickets
  * 
  * Given a list of tickets, find itinerary in order using the given list.

@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * Date: - 21 Nov 2017
+ * 
  * Find subarray with given sum
  
 Given an unsorted array of integers, find a subarray which adds to a given number. 

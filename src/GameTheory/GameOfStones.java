@@ -1,4 +1,7 @@
-/*
+/* Name :- Kushal S Shinde
+ * Email:- kshinde1@binghamton.edu
+ * 
+ * 
  Two players (numbered 1 and 2) are playing a game with  stones. 
  Player 1 always plays first, and the two players move in alternating turns. The game's rules are as follows:
 
