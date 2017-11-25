@@ -1,8 +1,8 @@
 /* Name :- Kushal S Shinde
  * Email:- kshinde1@binghamton.edu
  * 
- * Quick Sort
- * 
+ *  Quick Sort
+ *
  */
 
 

@@ -1,7 +1,6 @@
  /* Name :- Kushal S Shinde
   * Email:- kshinde1@binghamton.edu
   * 
-  *
  
 Following are common definition of Binomial Coefficients.
 1) A binomial coefficient C(n, k) can be defined as the coefficient of X^k in the expansion of (1 + X)^n.

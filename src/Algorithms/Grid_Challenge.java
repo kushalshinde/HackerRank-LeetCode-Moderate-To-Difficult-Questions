@@ -1,7 +1,7 @@
 /* Name :- Kushal S Shinde
  * Email:- kshinde1@binghamton.edu
  * 
- * 
+  
  
 Given a squared sized grid G of size N in which each cell has a lowercase letter. Denote the character in the ith row and in the jth column as G[i][j].
 

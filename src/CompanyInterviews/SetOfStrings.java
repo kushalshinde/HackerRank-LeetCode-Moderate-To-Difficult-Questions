@@ -1,7 +1,6 @@
 /* Name :- Kushal S Shinde
  * Email:- kshinde1@binghamton.edu
- * 
- * 
+ 
 Given input file with the following set of Strings
 	
 Download input file: https://www.google.com/basepages/producttype/taxonomy.en-US.txt

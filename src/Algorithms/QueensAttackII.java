@@ -1,7 +1,6 @@
 /* Name :- Kushal S Shinde
  * Email:- kshinde1@binghamton.edu
- * 
- * 
+ *  
  
  A queen is standing on an n X n chessboard. The chessboard's rows are numbered from 1 to n, going from bottom to top; its columns are numbered 
  from 1 to n, going from left to right. Each square on the board is denoted by a tuple,(r,c), describing the row, r, and column, c, where 
