@@ -22,9 +22,18 @@ public class Fibonacci {
 
 		int num = 9;
 		
+		System.out.println(FibUsingRecursion(num));
 		System.out.println(FibUsingDP(num));
 	}
 	
+	
+	public static int FibUsingRecursion(int num) {
+		if(num<=1)
+			return num;
+		return FibUsingRecursion(num-1) + FibUsingRecursion(num-2);
+		
+	}
+
 	public static int FibUsingDP(int num) {
 		
 		int[] array = new int[num+1];
