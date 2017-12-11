@@ -1,6 +1,7 @@
 /*
  * Name: - Kushal S Shinde
  * Email: - kshinde1@binghamton.edu
+ * Date: - 11 December 2017
  * 
  * Search a Word in a 2D Grid of characters
  * 
@@ -41,11 +42,11 @@ package Arrays;
 public class SearchAWordInA2DGrid {
 
 	public static void main(String[] args) {
-		char[][] matrix = new char[][] {{'G','E','E','K','S','F','O','R','G','E','E','K','E'},
-                                        {'G','E','E','K','K','Q','U','I','Z','G','E','E','K'},
-                                        {'I','E','E','E','A','P','R','A','C','T','I','C','E'}};
+		char[][] matrix = new char[][] {{'G','E','E','K','S','F','O','R','G','E','E','K','S'},
+                                        {'G','E','E','K','S','Q','U','I','Z','G','E','E','K'},
+                                        {'I','D','E','Q','A','P','R','A','C','T','I','C','E'}};
 
-        String word = "EEI";
+        String word = "EEE";
 
         int rowLength = matrix[0].length;  //13
         int columnLength = matrix.length;  //3
@@ -68,21 +69,27 @@ public class SearchAWordInA2DGrid {
 			
 			if((j+lengthOfWord)<=rowLength)
 				rightFromthatPoint(grid, i, j, word);
+			
 			if(((j+1)-lengthOfWord)>=0)
 				leftFromthatPoint(grid, i, j, word);
+			
 			if(((i+1)-lengthOfWord)>=0)
 				topFromthatPoint(grid, i, j, word);	
+			
 			if((i+lengthOfWord)<=columnLength)
 				bottomFromthatPoint(grid, i, j, word);
+			
 			if((i+1-lengthOfWord)>=0 &&(j+1-lengthOfWord)>=0)
 				topLeftFromthatPoint(grid, i, j, word);
+			
 			if((i+lengthOfWord)<=columnLength &&(j+lengthOfWord)<=rowLength)
 				bottomRightFromthatPoint(grid, i, j, word);
+			
 			if((i+1-lengthOfWord)>=0 &&(j+lengthOfWord)<=rowLength)
 				topRightFromthatPoint(grid, i, j, word);
+			
 			if((i+lengthOfWord)<=columnLength &&(j+1-lengthOfWord)>=0)
 				bottomLeftFromthatPoint(grid, i, j, word);
-
 		}
 
 	}
