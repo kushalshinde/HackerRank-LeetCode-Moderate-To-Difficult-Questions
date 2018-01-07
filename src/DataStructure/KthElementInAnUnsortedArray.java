@@ -50,7 +50,7 @@ public class KthElementInAnUnsortedArray {
 		}
 			
 		for(int j=0; j<k-1; j++) {
-			heap.poll();
+			System.out.println(heap.poll());
 		}
 		
 		return heap.peek();
