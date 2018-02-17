@@ -23,6 +23,7 @@
 package CareerCup;
 
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class PrintMatrixPattern {
 
@@ -30,6 +31,8 @@ public class PrintMatrixPattern {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter value of n: ");
 		int n = sc.nextInt();
+		
+		nlines(n);
 		
 		int row = 0;
 		int column = 0;
@@ -67,5 +70,23 @@ public class PrintMatrixPattern {
 		}
 		sc.close();
 	}
+	
+	//Using Java 8
+	public static void nlines(int n) {
+        if (n < 2) {
+            System.out.println(n);
+        } else {
+            IntStream.concat(IntStream.of(n), IntStream.rangeClosed(1, n))
+                    .mapToObj(i ->
+                            String.format(
+                                    "%" + n/2 + "s" +
+                                    "%0" + Integer.toString(n).length() + "d" +
+                                    "%" + n/2 + "s",
+                                    "", i, "")
+                            .replace(" ", Integer.toString(n))
+                    )
+                    .forEach(System.out::println);
+        }
+    }
 
 }
